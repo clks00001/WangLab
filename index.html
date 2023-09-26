@@ -1,0 +1,1779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Wang Lab</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="zhouguang wang" />
+	<link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- element-ui -->
+	<!-- <link rel="stylesheet" href="css/element-ui.css"> -->
+	<!-- <script src="js/element-ui.js"></script> -->
+	<!-- //element-ui -->
+	<!-- bootstrap-css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--// css -->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- font -->
+	<!-- <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300'
+		rel='stylesheet' type='text/css'> -->
+	<!-- //font -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- light-box -->
+	<link rel="stylesheet" href="css/lightbox.css">
+	<!-- //light-box -->
+	<!-- <script src="js/SmoothScroll.min.js"></script> -->
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<style>
+		.scrollable-container {
+			width: 100%;
+			/* 可以根据需要调整宽度 */
+			height: 1500px;
+			/* 固定高度 */
+			overflow-y: auto;
+			/* 当内容超出容器高度时，垂直滚动条将出现 */
+			/* border: 1px solid #ccc; */
+			/* 为容器添加一个简单的边框 */
+		}
+
+		.content-box {
+			padding: 15px;
+			border-bottom: 1px solid #e0e0e0;
+			/* 每个内容块之间的分割线 */
+		}
+
+		/* 可选：使滚动条更窄和更现代的样式（仅对WebKit浏览器，如Chrome和Safari有效） */
+		.scrollable-container::-webkit-scrollbar {
+			width: 8px;
+		}
+
+		.scrollable-container::-webkit-scrollbar-thumb {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
+		.scrollable-container::-webkit-scrollbar-track {
+			background-color: #f1f1f1;
+		}
+	</style>
+
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="banner" id="index">
+		<div class="banner-dot">
+			<!-- header-top -->
+			<div class="header-top">
+				<div class="container">
+					<div class="header-left">
+						<h1><a href="index.html">Wang <span>Lab</span></a></h1>
+					</div>
+					<div>
+						<!-- <ul>
+							<li><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>+123 456 7890</li>
+							<li><a href="mailto:info@example.com"><span class="glyphicon glyphicon-envelope"
+										aria-hidden="true"></span>info@example.com</a></li>
+						</ul> -->
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#index" class="active" style="color: aliceblue;"
+									onmouseover="this.style.color='black';"
+									onmouseout="this.style.color='aliceblue';">Home</a></li>
+							<li><a href="#about" class="scroll" style="color: aliceblue;"
+									onmouseover="this.style.color='black';"
+									onmouseout="this.style.color='aliceblue';">About</a></li>
+							<!-- <li><a href="#services" class="scroll" style="color: aliceblue;"
+									onmouseover="this.style.color='black';"
+									onmouseout="this.style.color='aliceblue';">Services</a></li> -->
+							<li><a href="#news" class="scroll" style="color: aliceblue;"
+									onmouseover="this.style.color='black';"
+									onmouseout="this.style.color='aliceblue';">Publications</a></li>
+							<li><a href="#team" class="scroll" style="color: aliceblue;"
+									onmouseover="this.style.color='black';"
+									onmouseout="this.style.color='aliceblue';">Memebers</a></li>
+							<!-- <li><a href="#gallery" class="scroll" style="color: aliceblue;"
+									onmouseover="this.style.color='black';"
+									onmouseout="this.style.color='aliceblue';">Ours</a></li> -->
+							<li><a href="#contact" class="scroll" style="color: aliceblue;"
+									onmouseover="this.style.color='black';"
+									onmouseout="this.style.color='aliceblue';">Contact</a></li>
+						</ul>
+					</div>
+					<!-- <div class="header-right">
+						<div class="search">
+							<form action="#" method="post">
+								<input type="search" name="Search" value="Search" onfocus="this.value = '';"
+									onblur="if (this.value == '') {this.value = 'Search';}" required="">
+								<input type="submit" value=" ">
+							</form>
+						</div>
+					</div> -->
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!-- //header-top -->
+			<!--header-->
+			<div class="header">
+				<div class="container">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!--navbar-header-->
+						<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#index" class="active">Home</a></li>
+								<li><a href="#about" class="scroll">About</a></li>
+								<li><a href="#services" class="scroll">Services</a></li>
+								<li><a href="#gallery" class="scroll">Gallery</a></li>
+								<li><a href="#news" class="scroll">News</a></li>
+								<li><a href="#team" class="scroll">Team</a></li>
+								<li><a href="#contact" class="scroll">Contact Us</a></li>
+							</ul>
+							<div class="clearfix"> </div>
+						</div> -->
+					</nav>
+				</div>
+			</div>
+			<!--//header-->
+			<!-- banner-info -->
+			<div class="banner-info">
+				<div class="container">
+					<div class="w3layouts-text">
+						<h3 style="font-size :100px;">Wang</h3>
+						<label></label>
+						<h2>Research Group</h2>
+					</div>
+					<!-- <div class="social">
+						<ul style="visibility: hidden;">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div> -->
+				</div>
+			</div>
+			<!-- //banner-info -->
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- welcome -->
+	<div class="welcome" id="about">
+		<div class="container">
+			<div class="col-md-6 agileits_welcome_grid_left">
+				<h3>About Lab</h3>
+				<p>
+					<i>Research on the Mechanism of Growth Factors/Stem Cells and Myocardial and Neural Regeneration</i>
+					<i>In the research of elderly regenerative medicine, the use of photogenetics to promote elderly
+						rehabilitation and prolong lifespan has expanded new methods for phototherapy in the field of
+						elderly regenerative medicine, and elucidated the role of GnRH frequency in regulating aging and
+						lifespan. Clarified the effects and mechanisms of diet targeting the hypothalamus and improving
+						metabolism, muscle, and other related factors in elderly regeneration.</i>
+					<i>Research on Growth Factors and Metabolism and Systemic Aging</i>
+					<i>In the field of spinal cord regenerative medicine, a three-dimensional and diversified system for
+						spinal cord injury rehabilitation based on neural repair and reactivation of body activity has
+						been constructed, significantly improving the speed of spinal cord injury regeneration.</i>
+					<i>Biomaterials and nerve regeneration</i>
+					<i>In the field of cardiac regenerative medicine, we have conducted research on the application and
+						mechanism of growth factors and scaffold biomaterials in the field of cardiac rehabilitation
+						medicine, utilizing zebrafish ECM scaffolds combined with exercise to promote myocardial
+						infarction injury regeneration.</i>
+				</p>
+			</div>
+			<div class="col-md-6 agileits_welcome_grid_right">
+				<img src="images/1.jpg" alt=" " class="img-responsive" style="height: 650px;" />
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //welcome -->
+	<!-- services -->
+	<!-- <div class="services" id="services">
+		<div class="container">
+			<h3>Services</h3>
+			<div class="agileinfo-services-grids">
+				<div class="col-md-6 services-grid">
+					<div class="services-grid1">
+						<div class="col-md-4 services-grid-right agile-services-grid-right">
+							<div class="services-grid-right-grid hvr-radial-out">
+								<span class="glyphicon glyphicon-grain" aria-hidden="true"></span>
+							</div>
+						</div>
+						<div class="col-md-8 services-grid-left agile-services-grid-left">
+							<h4>repreh qui in ea voluptate</h4>
+							<p>Itaque earum rerum hic tenetur a sapiente
+								delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+								aut perferendis doloribus asperiores repellat.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="services-grid1">
+						<div class="col-md-4 services-grid-right agile-services-grid-right">
+							<div class="services-grid-right-grid hvr-radial-out">
+								<span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+							</div>
+						</div>
+						<div class="col-md-8 services-grid-left agile-services-grid-left">
+							<h4>aut perferendis doloribus</h4>
+							<p>Itaque earum rerum hic tenetur a sapiente
+								delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+								aut perferendis doloribus asperiores repellat.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="services-grid1">
+						<div class="col-md-4 services-grid-right agile-services-grid-right">
+							<div class="services-grid-right-grid hvr-radial-out">
+								<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+							</div>
+						</div>
+						<div class="col-md-8 services-grid-left agile-services-grid-left">
+							<h4>maiores alias consequatur</h4>
+							<p>Itaque earum rerum hic tenetur a sapiente
+								delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+								aut perferendis doloribus asperiores repellat.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-6 services-grid">
+					<div class="services-grid1">
+						<div class="col-md-4 services-grid-right">
+							<div class="services-grid-right-grid hvr-radial-out">
+								<span class="glyphicon glyphicon-upload" aria-hidden="true"></span>
+							</div>
+						</div>
+						<div class="col-md-8 services-grid-left services-grid-left1">
+							<h4>voluptatibus maiores alias</h4>
+							<p>Itaque earum rerum hic tenetur a sapiente
+								delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+								aut perferendis doloribus asperiores repellat.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="services-grid1">
+						<div class="col-md-4 services-grid-right">
+							<div class="services-grid-right-grid hvr-radial-out">
+								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							</div>
+						</div>
+						<div class="col-md-8 services-grid-left services-grid-left1">
+							<h4>dut aut reiciendis maiores</h4>
+							<p>Itaque earum rerum hic tenetur a sapiente
+								delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+								aut perferendis doloribus asperiores repellat.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="services-grid1">
+						<div class="col-md-4 services-grid-right">
+							<div class="services-grid-right-grid hvr-radial-out">
+								<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+							</div>
+						</div>
+						<div class="col-md-8 services-grid-left services-grid-left1">
+							<h4>doloribus volupta maiores</h4>
+							<p>Itaque earum rerum hic tenetur a sapiente
+								delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+								aut perferendis doloribus asperiores repellat.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div> -->
+	<!-- //services -->
+	<!-- gallery -->
+	<!-- <div id="gallery" class="gallery">
+		<div class="container">
+			<h3>Ours</h3>
+			<div id="jzBox" class="jzBox">
+				<div id="jzBoxNextBig"></div>
+				<div id="jzBoxPrevBig"></div>
+				<img src="#" id="jzBoxTargetImg" alt="">
+				<div id="jzBoxBottom">
+					<div id="jzBoxTitle"></div>
+					<div id="jzBoxCounter"></div>
+					<span id="jzBoxMoreItems">
+						<i class="glyphicon glyphicon-menu-left" id="jzBoxPrev"></i> &nbsp;
+						<i class="glyphicon glyphicon-menu-right" id="jzBoxNext"></i> &nbsp;
+					</span>
+					<i class="glyphicon glyphicon-remove-circle" id="jzBoxClose"></i>
+				</div>
+			</div>
+			<div class="w3ls-gallery-grids">
+				<div class="col-sm-4 col-xs-6 gallery-grid">
+					<div class="wpf-demo-4">
+						<a href="images/g1.jpg" class="jzBoxLink item-hover"
+							title="Maecenas sodales tortor ac ligula ultrices dictum et quis urna.">
+							<img src="images/g1.jpg" class="img-responsive" alt=" " />
+							<div class="view-caption">
+								<p>Click Here</p>
+							</div>
+						</a>
+					</div>
+					<div class="wpf-demo-4">
+						<a href="images/g2.jpg" class="jzBoxLink item-hover"
+							title="Etiam pulvinar metus neque eget porttitor massa.">
+							<img src="images/g2.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Click Here</p>
+							</div>
+						</a>
+					</div>
+					<div class="wpf-demo-4">
+						<a href="images/g7.jpg" class="jzBoxLink item-hover"
+							title="Etiam pulvinar metus neque eget porttitor massa.">
+							<img src="images/g7.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Click Here</p>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-sm-4 col-xs-6 gallery-grid">
+					<div class="wpf-demo-4">
+						<a href="images/g3.jpg" class="jzBoxLink item-hover"
+							title="Etiam pulvinar metus neque eget porttitor massa.">
+							<img src="images/g3.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Click Here</p>
+							</div>
+						</a>
+					</div>
+					<div class="wpf-demo-4">
+						<a href="images/g4.jpg" class="jzBoxLink item-hover"
+							title="Etiam pulvinar metus neque eget porttitor massa.">
+							<img src="images/g4.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Click Here</p>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-sm-4 col-xs-12 gallery-grid">
+					<div class="wpf-demo-4">
+						<a href="images/g6.jpg" class="jzBoxLink item-hover"
+							title="Etiam pulvinar metus neque eget porttitor massa.">
+							<img src="images/g6.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Click Here</p>
+							</div>
+						</a>
+					</div>
+					<div class="wpf-demo-4">
+						<a href="images/g8.jpg" class="jzBoxLink item-hover"
+							title="Etiam pulvinar metus neque eget porttitor massa.">
+							<img src="images/g8.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Click Here</p>
+							</div>
+						</a>
+					</div>
+					<div class="wpf-demo-4">
+						<a href="images/g5.jpg" class="jzBoxLink item-hover"
+							title="Etiam pulvinar metus neque eget porttitor massa.">
+							<img src="images/g5.jpg" alt=" " class="img-responsive" />
+							<div class="view-caption">
+								<p>Click Here</p>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<script src="js/jzBox.js"></script>
+		</div>
+	</div> -->
+	<!-- //gallery -->
+	<!-- testimonial -->
+	<div class="testimonial jarallax">
+		<div class="w3-agileits-testimonial">
+			<div class="container">
+				<h3>Publications</h3>
+				<!-- <div class="wthree-testimonial-grid">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides" id="slider3">
+								<li>
+									<div class="testimonial-top">
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+										<p>Donec feugiat tellus sem, laoreet iaculis orci lobortis vel. Sed sed luctus
+											orci, at lacinia risus. Ut porttitor ante ac tincidunt elementum. Curabitur
+											ex dolor, condimentum vitae nunc vel, pulvinar semper justo. Vestibulum et
+											aliquet magna, maximus dapibus enim. Vestibulum ex lectus, posuere eu
+											viverra at, mattis et enim. Nam efficitur sem et lectus fringilla, at
+											pharetra nulla luctus. Nunc cursus, augue ac ultricies volutpat, neque erat
+											congue justo, ac pretium tellus eros a neque. Integer ipsum sem, consectetur
+											a mollis ac, cursus eu ipsum.</p>
+										<h5>John Smith <span>- Founder</span></h5>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-top">
+										<i class="fa fa-quote-right" aria-hidden="true"></i>
+										<p>Pellentesque urna ex, ultricies a nunc at, pretium maximus nisi. Vestibulum
+											non auctor diam. Mauris eget consectetur mauris. Aenean leo elit, accumsan
+											vel elit vitae, mattis ultricies lacus. Cras consectetur justo lorem, sed
+											dictum sapien eleifend at.Donec sed orci a dui aliquam tempor. Praesent in
+											ipsum ut nunc porttitor lacinia.Donec eu sapien et arcu dictum rutrum.Ut
+											laoreet vitae augue at accumsan. Nam pharetra sagittis purus et condimentum.
+											Vestibulum cursus porttitor pretium.In egestas finibus rutrum. Nulla
+											facilisi.</p>
+										<h5>Divide Rule <span>- CEO</span></h5>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+								// Slideshow 4
+								$("#slider3").responsiveSlides({
+									auto: true,
+									pager: false,
+									nav: true,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+										$('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+										$('.events').append("<li>after event fired.</li>");
+									}
+								});
+
+							});
+						</script>
+						banner Slider starts Here
+					</div> -->
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- //testimonial -->
+	<!-- updates -->
+	<div class="updates" id="news">
+		<div class="container">
+			<!-- <h3>Publications</h3> -->
+			<i style="font-size: 1.5em;">Representative Work</i>
+			<div class="agileits_updates_grids">
+				<div class="col-xs-9">
+					<p style="font-size: 1.5em;font-weight: bold;"> Nature aging</p>
+					<p>Published: 07 October 2021</p>
+					<p style="font-size: 25px;font-weight: 900;">
+						<a href="https://www.nature.com/articles/s43587-021-00116-5">GnRH pulse frequency and
+							irregularity play a role in male aging</a>
+					</p>
+				</div>
+				<div class="col-xs-3" style="margin-top: 10px;">
+					<img src="images/publications/1.jpg" alt="Image Description" class="img-responsive">
+				</div>
+				<br />
+				<hr>
+				<div class=" agileits_updates_grid_left">
+					<h4>Latest Publications</h4>
+					<hr>
+					<!-- <div class="scrollable-container"> -->
+					<div class="agileits_updates_grid_left_grid content-box" style="justify-content: center;">
+						<div class="col-xs-2 agileits_updates_grid_left1">
+							<i style="font-size: 15px;font-weight: bold;">Military
+								<br>
+								Medical
+								<br>
+								Research</i>
+							<br>
+							<span>July, <i>2023.</i></span>
+						</div>
+						<div class="col-xs-8 agileits_updates_grid_left1">
+							<h5><a href="https://pubmed.ncbi.nlm.nih.gov/37525300/">The marriage of
+									immunomodulatory,
+									angiogenic, and osteogenic capabilities in a piezoelectric hydrogel tissue
+									engineering scaffold for military medicine</a></h5>
+							<p>
+								Ping Wu, Lin Shen, Hui-Fan Liu, Xiang-Hui Zou, Juan Zhao, Yu Huang, Yu-Fan Zhu,
+								Zhao-Yu
+								Li, Chao Xu, Li-Hua Luo, Zhi-Qiang Luo, Min-Hao Wu, Lin Cai, Xiao-Kun Li &
+								Zhou-Guang
+								Wang.</p>
+						</div>
+						<div class="col-xs-2">
+							<img src="images/publications/10.jpg" alt="Image Description" class="img-responsive">
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="agileits_updates_grid_left_grid content-box">
+						<div class="col-xs-2 agileits_updates_grid_left1">
+							<i style="font-size: 15px;font-weight: bold;">Bioactive
+								<br> Materials</i>
+							<br>
+							<span>April,
+								<i>2023.</i></span>
+						</div>
+						<div class="col-xs-8 agileits_updates_grid_left1">
+							<h5><a href="https://pubmed.ncbi.nlm.nih.gov/36263097/">A shear-thinning,
+									ROS-scavenging
+									hydrogel combined with dental pulp stem cells promotes spinal cord repair by
+									inhibiting ferroptosis.</p>
+									<p>
+										Yibo Ying , Zhiyang Huang , Yurong Tu , Qiuji Wu , Zhaoyu Li , Yifan Zhang ,
+										Huilei Yu , Annian Zeng , Hanzhi Huang , Jiahui Ye , Weiyang Ying , Min Chen
+										,
+										Zhiyi Feng , Ziyue Xiang , Qingsong Ye , Sipin Zhu, Zhouguang Wang.
+									</p>
+								</a></h5>
+						</div>
+						<div class="col-xs-2" style="margin-top: 10px;">
+							<img src="images/publications/8.jpg" alt="Image Description" class="img-responsive">
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="agileits_updates_grid_left_grid content-box">
+						<div class="col-xs-2 agileits_updates_grid_left1">
+							<i style="font-size: 15px;font-weight: bold;">Bioactive <br> Materials</i>
+							<br>
+							<span>September,
+								<i>2022.</i></span>
+						</div>
+						<div class="col-xs-8 agileits_updates_grid_left1">
+							<h5><a href="https://pubmed.ncbi.nlm.nih.gov/35386360/">Injectable cartilage matrix
+									hydrogel loaded with cartilage endplate stem cells engineered to release
+									exosomes for non-invasive treatment of intervertebral disc degeneration.</p>
+									<p>
+										Liwen Luo, Junfeng Gong, Zhouguang Wang, Yao Liu, Jiaming Cao, Jinghao Qin,
+										Rui Zuo, Hongyu Zhang, Shuai Wang, Ping Zhao, Di Yang, Mengjie Zhang, Yanqiu
+										Wang, Junfeng Zhang, Yue Zhou, Changqing Li, Bing Ni, Zhiqiang Tian, MingHan
+										Liu.
+									</p>
+								</a></h5>
+						</div>
+						<div class="col-xs-2" style="margin-top: 10px;">
+							<img src="images/publications/2.jpg" alt="Image Description" class="img-responsive">
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="agileits_updates_grid_left_grid content-box">
+						<div class="col-xs-2 agileits_updates_grid_left1">
+							<i style="font-size: 15px;font-weight: bold;">Chemical
+								<br>
+								Engineering
+								<br>
+								Journal</i>
+							<br>
+							<span>November,
+								<i>2021.</i></span>
+						</div>
+						<div class="col-xs-8 agileits_updates_grid_left1">
+							<h5><a href="https://www.sciencedirect.com/science/article/pii/S1385894721024128">Alginate
+									self-adhesive
+									hydrogel combined with dental pulp stem cells and FGF21 repairs hemisection
+									spinal cord injury via apoptosis and autophagy mechanisms.</p>
+									<p>
+										Sipin Zhu , Yibo Ying , Qiuji Wu , Zhichao Ni , Zhiyang Huang , Peihan Cai ,
+										Yurong Tu , Weiyang Ying , Jiahui Ye , Renkan Zhang , Yifan Zhang , Min Chen
+										, Ziyue Xiang , Haicheng Dou , Qishan Huang , Xiaokun Li , Huacheng He ,
+										Jian Xiao , Qingsong Ye , Zhouguang Wang
+									</p>
+								</a></h5>
+						</div>
+						<div class="col-xs-2" style="margin-top: 10px;">
+							<img src="images/publications/9.jpg" alt="Image Description" class="img-responsive">
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="agileits_updates_grid_left_grid content-box">
+						<div class="col-xs-2 agileits_updates_grid_left1">
+							<i style="font-size: 15px;font-weight: bold;">Bioactive
+								<br>
+								Materials</i>
+							<br>
+							<span>August
+								<i>2021.</i></span>
+						</div>
+						<div class="col-xs-8 agileits_updates_grid_left1">
+							<h5><a href="https://pubmed.ncbi.nlm.nih.gov/33553827/">Hypoxia response element-directed
+									expression of bFGF in dental pulp stem cells improve the hypoxic environment by
+									targeting pericytes in SCI rats.</p>
+									<p>Sipin Zhu , Yibo Ying , Yan He , Xingxing Zhong , Jiahui Ye , Zhiyang Huang , Min
+										Chen , Qiuji Wu , Yifan Zhang , Ziyue Xiang , Yurong Tu , Weiyang Ying , Jian
+										Xiao , Xiaokun Li , Qingsong Ye, Zhouguang Wang.
+									</p>
+								</a></h5>
+						</div>
+						<div class="col-xs-2" style="margin-top: 10px;">
+							<img src="images/publications/7.jpg" alt="Image Description" class="img-responsive">
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="agileits_updates_grid_left_grid content-box">
+						<div class="col-xs-2 agileits_updates_grid_left1">
+							<i style="font-size: 15px;font-weight: bold;">Bioactive
+								<br> Materials</i>
+							<br><span>July
+								<i>2021.</i></span>
+						</div>
+						<div class="col-xs-8 agileits_updates_grid_left1">
+							<h5><a href="https://pubmed.ncbi.nlm.nih.gov/33336117/">Myocardial <br> protection by
+									heparin-based coacervate of FGF10.</p>
+									<p>
+										Zhouguang Wang, Yan Huang, Yan He, Sinan Khor，Xingxing Zhong, Jian Xiao, Qingsong Ye, Xiaokun Li
+									</p>
+								</a></h5>
+						</div>
+						<div class="col-xs-2" style="margin-top: 10px;">
+							<img src="images/publications/4.jpg" alt="Image Description" class="img-responsive">
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="agileits_updates_grid_left_grid content-box">
+						<div class="col-xs-2 agileits_updates_grid_left1">
+							<i style="font-size: 15px;font-weight: bold;">Frontiers <br> in
+								<br>Pharmacology</i><br><span>January
+								<i>2021.</i></span>
+						</div>
+						<div class="col-xs-8 agileits_updates_grid_left1">
+							<h5><a href="https://pubmed.ncbi.nlm.nih.gov/33584310/">Systemic Administration of
+									Fibroblast Growth Factor 21 Improves the Recovery of Spinal Cord Injury (SCI) in
+									Rats and Attenuates SCI-Induced Autophagy.</p>
+									<p>
+										Sipin Zhu, Yibo Ying, Lin Ye, Weiyang Ying, Jiahui Ye, Qiuji Wu, Min Chen, Hui
+										Zhu, Xiaoyang Li, Haicheng Dou, Huazi Xu, Zhouguang Wang, Jiake Xu
+									</p>
+								</a></h5>
+						</div>
+						<div class="col-xs-2" style="margin-top: 10px;">
+							<img src="images/publications/3.jpg" alt="Image Description" class="img-responsive">
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="agileits_updates_grid_left_grid content-box">
+						<div class="col-xs-2 agileits_updates_grid_left1">
+							<i style="font-size: 15px;font-weight: bold;">Molecular <br>
+								Metabolism</i><br><span>February
+								<i>2020.</i></span>
+						</div>
+						<div class="col-xs-8 agileits_updates_grid_left1">
+							<h5><a href="https://pubmed.ncbi.nlm.nih.gov/32029230/">Regulation of muscle and metabolic
+									physiology by hypothalamic erythropoietin independently of its peripheral action.
+									</p>
+									<p>
+										Zhouguang Wang, Sinan Khor, Dongsheng Cai
+									</p>
+								</a></h5>
+						</div>
+						<div class="col-xs-2" style="margin-top: 10px;">
+							<img src="images/publications/6.jpg" alt="Image Description" class="img-responsive">
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="agileits_updates_grid_left_grid content-box">
+						<div class="col-xs-2 agileits_updates_grid_left1">
+							<i style="font-size: 15px;font-weight: bold;">Journal <br> of <br> Biological
+								Chemistry</i><br><span>March
+								<i>2019.</i></span>
+						</div>
+						<div class="col-xs-8 agileits_updates_grid_left1">
+							<h5><a href="https://pubmed.ncbi.nlm.nih.gov/30709906/">Age-dependent decline of
+									hypothalamic HIF2α in response to insulin and its contribution to advanced
+									age-associated metabolic disorders in mice.</p>
+									<p>
+										Zhouguang Wang, Sinan Khor, Dongsheng Cai
+									</p>
+								</a></h5>
+						</div>
+						<div class="col-xs-2" style="margin-top: 10px;">
+							<img src="images/publications/5.jpg" alt="Image Description" class="img-responsive">
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!-- </div> -->
+					<!-- modal -->
+					<!-- <div class="modal about-modal fade" id="model1" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title">Abstract</h4>
+								</div>
+								<div class="modal-body">
+									<div class="agileits-w3layouts-info">
+										<img src="images/publications/10.jpg" alt="" />
+										<p>
+											<hr>
+											<span style="font-size: 25px;">Background:</span>
+											<hr>
+											Most bone-related injuries to grassroots troops are caused by
+											training or accidental injuries. To establish preventive measures to reduce
+											all kinds of trauma and improve the combat effectiveness of grassroots
+											troops, it is imperative to develop new strategies and scaffolds to promote
+											bone regeneration.
+											<hr>
+											<span style="font-size: 25px;">Methods:</span>
+											<hr>
+											In this study, a porous piezoelectric hydrogel bone scaffold was fabricated
+											by incorporating polydopamine (PDA)-modified
+											ceramic hydroxyapatite (PDA-hydroxyapatite, PHA) and PDA-modified barium
+											titanate (PDA-BaTiO3, PBT) nanoparticles into a chitosan/gelatin (Cs/Gel)
+											matrix. The physical and chemical properties of the Cs/Gel/PHA scaffold with
+											0–10 wt% PBT were analyzed. Cell and animal experiments were performed to
+											characterize the immunomodulatory, angiogenic, and osteogenic capabilities
+											of the piezoelectric hydrogel scaffold in vitro and in vivo.
+											<hr>
+											<span style="font-size: 25px;">Results:</span>
+											<hr>
+											The incorporation of BaTiO3 into the scaffold improved its mechanical
+											properties
+											and increased self-generated electricity. Due to their endogenous
+											piezoelectric stimulation and bioactive constituents, the as-prepared
+											Cs/Gel/PHA/PBT hydrogels exhibited cytocompatibility as well as
+											immunomodulatory, angiogenic, and osteogenic capabilities; they not only
+											effectively induced macrophage polarization to M2 phenotype but also
+											promoted the migration, tube formation, and angiogenic differentiation of
+											human umbilical vein endothelial cells (HUVECs) and facilitated the
+											migration, osteo-differentiation, and extracellular matrix (ECM)
+											mineralization of MC3T3-E1 cells. The in vivo evaluations showed that these
+											piezoelectric hydrogels with versatile capabilities significantly
+											facilitated new bone formation in a rat large-sized cranial injury model.
+											The underlying molecular mechanism can be partly attributed to the
+											immunomodulation of the Cs/Gel/PHA/PBT hydrogels as shown via transcriptome
+											sequencing analysis, and the PI3K/Akt signaling axis plays an important role
+											in regulating macrophage M2 polarization.
+											<hr>
+											<span style="font-size: 25px;">Conclusion:</span>
+											<hr>
+											The piezoelectric Cs/Gel/PHA/PBT hydrogels developed here with favorable
+											immunomodulation, angiogenesis, and osteogenesis functions may be used as a
+											substitute in
+											periosteum injuries, thereby offering the novel strategy of applying
+											piezoelectric stimulation in bone tissue engineering for the enhancement of
+											combat effectiveness in grassroots troops.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal about-modal fade" id="model2" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title">Abstract</h4>
+								</div>
+								<div class="modal-body">
+									<div class="agileits-w3layouts-info">
+										<img src="images/publications/8.jpg" alt="" />
+										<p>
+											<hr>
+											Spinal cord injury (SCI) is a serious clinical disease. Due to the
+											deformability and fragility of the spinal cord, overly rigid hydrogels
+											cannot be used to treat SCI. Hence, we used TPA and Laponite to develop a
+											hydrogel with shear-thinning ability. This hydrogel exhibits good
+											deformation, allowing it to match the physical properties of the spinal
+											cord; additionally, this hydrogel scavenges ROS well, allowing it to inhibit
+											the lipid peroxidation caused by ferroptosis. According to the in vivo
+											studies, the TPA@Laponite hydrogel could synergistically inhibit ferroptosis
+											by improving vascular function and regulating iron metabolism. In addition,
+											dental pulp stem cells (DPSCs) were introduced into the TPA@Laponite
+											hydrogel to regulate the ratios of excitatory and inhibitory synapses. It
+											was shown that this combination biomaterial effectively reduced muscle
+											spasms and promoted recovery from SCI.
+											<hr>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal about-modal fade" id="model3" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title">Abstract</h4>
+								</div>
+								<div class="modal-body">
+									<div class="agileits-w3layouts-info">
+										<img src="images/publications/2.jpg" alt="" />
+										<p>
+											<hr>
+											Low back pain, mainly caused by intervertebral disc degeneration (IVDD), is
+											a common health problem; however, current surgical treatments are less than
+											satisfactory. Thus, it is essential to develop novel non-invasive surgical
+											methods for IVDD treatment. Here, we describe a therapeutic strategy to
+											inhibit IVDD by injecting hydrogels modified with the extracellular matrix
+											of costal cartilage (ECM-Gels) that are loaded with cartilage endplate stem
+											cells (CESCs). After loaded with CESCs overexpressing Sphk2
+											(Lenti-Sphk2-CESCs) and injected near the cartilage endplate (CEP) of rats
+											in vivo, ECM-Gels produced Sphk2-engineered exosomes (Lenti-Sphk2-Exos).
+											These exosomes penetrated the annulus fibrosus (AF) and transported Sphk2
+											into the nucleus pulposus cells (NPCs). Sphk2 activated the
+											phosphatidylinositol 3-kinase (PI3K)/p-AKT pathway as well as the
+											intracellular autophagy of NPCs, ultimately ameliorating IVDD. This study
+											provides a novel and efficient non-invasive combinational strategy for IVDD
+											treatment using injectable ECM-Gels loaded with CESCs that express Sphk2
+											with sustained release of functional exosomes.
+											<hr>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal about-modal fade" id="model4" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title">Abstract</h4>
+								</div>
+								<div class="modal-body">
+									<div class="agileits-w3layouts-info">
+										<img src="images/publications/9.jpg" alt="" />
+										<p>
+											<hr>
+											Spinal cord injury (SCI) often leads to persistent functional deficits due
+											to loss of neurons and glia after injury. Hemisection spinal cord injury
+											(HSCI) is a special type of SCI. The most important difference between HSCI
+											and SCI is the occurrence of spinal cord dissection. Therefore, a calcium
+											alginate hydrogel combined with dental pulp stem cells (DPSCs) and
+											fibroblast growth factor 21 (FGF21) was designed based on the principle that
+											cadherin expression is regulated by calcium ion concentration. Each element
+											in Ca2+@Alg-FGF21 + DPSC hydrogel can exert different effects 1). calcium
+											ions can regulate cadherin to achieve self-adhesion; 2). alginic acid can
+											absorb calcium ions to prevent calcium overload induced injury; 3) FGF21 can
+											regulate microenvironment; 4). DPSCs can supplement exogenous neurons. The
+											multi-factorially comprehensive effects were hypothesized to improve the
+											HSCI recovery. It was revealed in our study that Ca2+@Alg-FGF21 + DPSC
+											hydrogel could effectively promote the recovery after spinal cord
+											hemisection in mice via regulating apoptosis and autophagy, providing
+											potential clues and cues of using Ca2+@Alg-FGF21 + DPSC hydrogel for HSCI
+											treatment.
+											<hr>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal about-modal fade" id="model5" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title">Abstract</h4>
+								</div>
+								<div class="modal-body">
+									<div class="agileits-w3layouts-info">
+										<img src="images/publications/7.jpg" alt="" />
+										<p>
+											<hr>
+											Cell-based transplantation strategies possess great potential for spinal
+											cord injury (SCI) repair. Basic fibroblast growth factor (bFGF) has been
+											reported to have multiple neuro-promoting effects on developing and adult
+											nervous system of mammals and considered a promising therapy for nerve
+											injury following SCI. Human dental pulp stem cells (DPSCs) are abundant stem
+											cells with low immune rejection, which can be considered for cell
+											replacement therapy. The purpose of this study was to investigate the roles
+											of DPSCs which express bFGF under the regulation of five hypoxia-responsive
+											elements (5HRE) using an adeno-associated virus (AAV-5HRE-bFGF-DPSCs) in SCI
+											repairing model. In this study, DPSCs were revealed to differentiate into
+											CD13+ pericytes and up-regulate N-cadherin expression to promote the
+											re-attachment of CD13+ pericytes to vascular endothelial cells. The
+											re-attachment of CD13+ pericytes to vascular endothelial cells subsequently
+											increased the flow rate of blood in microvessels via the contraction of
+											protuberance. As a result, increased numbers of red blood cells carried more
+											oxygen to the damaged area and the local hypoxia microenvironment in SCI was
+											improved. Thus, this study represents a step forward towards the potential
+											use of AAV-5HRE-bFGF-DPSCs in SCI treatment in clinic.
+											<hr>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal about-modal fade" id="model6" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title">Abstract</h4>
+								</div>
+								<div class="modal-body">
+									<div class="agileits-w3layouts-info">
+										<img src="images/publications/4.jpg" alt="" />
+										<p>
+											<hr>
+											Heart disease is still the leading killer all around the world, and its
+											incidence is expected to increase over the next decade. Previous reports
+											have already shown the role of fibroblast growth factor10 (FGF10) in
+											alleviating heart diseases. However, FGF10 has not been used to treat heart
+											diseases because the free protein has short half-life and low bioactivity.
+											Here, an injectable coacervate was designed to protect growth factor from
+											degradation during delivery and the effects of the FGF10 coacervate were
+											studied using a mice acute myocardial infarction (MI) model. As shown in our
+											echocardiographic results, a single injection of FGF10 coacervate
+											effectively inhibited preserved cardiac contractibility and ventricular
+											dilation when compared with free FGF10 and the saline treatment 6 weeks
+											after MI. It is revealed in histological results that the MI induced
+											myocardial inflammation and fibrosis was reduced after FGF10 coacervate
+											treatment. Furthermore, FGF10 coacervate treatment could improve arterioles
+											and capillaries stabilization through increasing the proliferation of
+											endothelial and mural cells. However, with the same dosage, no statistically
+											significant difference was shown between free FGF10, heparin+FGF10 and
+											saline treatment, especially in long term. On another hand, FGF10 coacervate
+											also increased the expression of cardiac-associated the mRNA (cTnT, Cx43 and
+											α-SMA), angiogenic factors (Ang-1 and VEGFA) and decreased the level of
+											inflammatory factor (tumor necrosis factor-α). The downstream signaling of
+											the FGF10 was also investigated, with the western blot results showing that
+											FGF10 coacervate activated the p-FGFR, PI3K/Akt and ERK1/2 pathways to a
+											more proper level than free FGF10 or heparin+FGF10. In general, it is
+											revealed in this research that one-time injection of FGF10 coacervate
+											sufficiently attenuated MI induced injury when compared with an equal dose
+											of free FGF10 or heparin+FGF10 injection.
+											<hr>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal about-modal fade" id="model7" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title">Abstract</h4>
+								</div>
+								<div class="modal-body">
+									<div class="agileits-w3layouts-info">
+										<img src="images/publications/5.jpg" alt="" />
+										<p>
+											<hr>
+											Hypoxia-inducible factor-2α (HIF2α) is a nuclear transcription factor that
+											plays a critical role in cell survival including metabolic adaptation under
+											hypoxia as well as normoxia, but whether HIF2α contributes to the control of
+											whole-body metabolic balance is unclear. In this study, we found that the
+											hypothalamic HIF2α protein level rapidly increases in young mice that are
+											centrally stimulated with insulin. However, this insulin-induced HIF2α
+											up-regulation is substantially attenuated in mice of advanced age. This
+											attenuation is comparable with the effect of high-calorie feeding in young
+											mice. Of note, unlike high-calorie feeding conditions, age-dependent HIF2α
+											attenuation occurs without impaired activation of the hypothalamic
+											IR/IRS-2/AKT/FOXO1 pathway in response to insulin. Molecular and
+											physiological analyses revealed that hypothalamic HIF2α contributes to the
+											action of central insulin in regulation of proopiomelanocortin (Pomc) gene
+											expression and food intake. HIF2α knockout in POMC neurons led to
+											age-dependent excess weight gain and fat increase, a phenotype that was
+											associated with a mild degree of glucose intolerance and insulin resistance.
+											In conclusion, hypothalamic HIF2α responds to insulin, and the up-regulation
+											is involved in adaptive metabolic regulation as age increases, whereas
+											impairment of HIF2α in the hypothalamus contributes to weight gain and
+											glucose disorders in age-dependent manners.
+											<hr>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal about-modal fade" id="model8" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title">Abstract</h4>
+								</div>
+								<div class="modal-body">
+									<div class="agileits-w3layouts-info">
+										<img src="images/publications/3.jpg" alt="" />
+										<p>
+											<hr>
+											Protecting the death of nerve cells is an essential tactic for spinal cord
+											injury (SCI) repair. Recent studies show that nerve growth factors can
+											reduce the death of nerve cells and promote the healing of nerve injury. To
+											investigate the conducive effect of fibroblast growth factor 21 (FGF21) on
+											SCI repair. FGF21 proteins were systemically delivered into rat model of SCI
+											via tail vein injection. We found that administration of FGF21 significantly
+											promoted the functional recovery of SCI as assessed by BBB scale and
+											inclined plane test, and attenuated cell death in the injured area by
+											histopathological examination with Nissl staining. This was accompanied with
+											increased expression of NeuN, GAP43 and NF200, and deceased expression of
+											GFAP. Interestingly, FGF21 was found to attenuate the elevated expression
+											level of the autophagy marker LC3-II (microtubules associated protein 1
+											light chain 3-II) induced by SCI in a dose-dependent manner. These data show
+											that FGF21 promotes the functional recovery of SCI via restraining
+											injury-induced cell autophagy, suggesting that systemic administration of
+											FGF21 could have a therapeutic potential for SCI repair.
+											<hr>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal about-modal fade" id="model9" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title">Abstract</h4>
+								</div>
+								<div class="modal-body">
+									<div class="agileits-w3layouts-info">
+										<img src="images/publications/6.jpg" alt="" />
+										<p>
+											<hr>
+											<span style="font-size: 25px;">Objective:</span>
+											<hr>
+											The glycoprotein hormone erythropoietin (EPO) is required for
+											erythropoiesis, and the kidney is the primary site of adult EPO synthesis.
+											Limited evidence has suggested that EPO could be detectable in the brain
+											under certain conditions, but it remains unknown if the brain might have its
+											own EPO system for biological functions that are independent of peripheral
+											EPO production and action. We performed this study to address this question
+											using mice under normal conditions versus pathophysiological conditions
+											including aging and dietary obesity.
+											<hr>
+											<span style="font-size: 25px;">Methods:</span>
+											<hr>
+											EPO expression was measured in different brain regions as well as in the
+											cerebrospinal fluid. Hypothalamic ventricular EPO was administered to
+											physiologically examine possible therapeutic effects on the conditions of
+											aging and dietary obesity. Body weight, body composition, insulin tolerance,
+											and glucose tolerance were measured to assess the central effects of EPO on
+											metabolic physiology, and muscle strength and histology were analyzed to
+											assess the central effects of EPO on muscle function. In addition,
+											β2-adrenergic receptor knockout bone marrow transplant was employed to
+											determine the potential role of bone marrow in linking the brain to some of
+											these peripheral functions.
+											<hr>
+											<span style="font-size: 25px;">Results:</span>
+											<hr>
+											This study revealed that EPO is expressed in the ventromedial hypothalamus
+											in addition to a few other brain regions and is present in the cerebrospinal
+											fluid. Unlike blood EPO concentration, which increased with aging and
+											dietary obesity, hypothalamic EPO decreased in these disease conditions.
+											Therapeutically, aged mice were chronically treated with EPO in the
+											hypothalamic ventricle, showing an increase in lean mass, while body weight
+											and fat mass decreased as a result of a moderate reduction of food intake.
+											Both muscle and metabolic functions were improved by this central treatment,
+											and mechanistically, adrenergic signals to the bone marrow played a role in
+											conveying hypothalamic EPO to these peripheral actions. Dietary obesity was
+											also studied, showing that hypothalamic EPO treatment caused a reduction in
+											food intake and obesity, leading to improved metabolic functions related to
+											decreased fat as well as increased lean mass.
+											<hr>
+											<span style="font-size: 25px;">Conclusion:</span>
+											<hr>
+											Hypothalamic EPO plays a role in the central regulation of muscle and
+											metabolic physiology, while its decline contributes to aging and obesity
+											physiology in a manner that is independent of peripheral EPO.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal about-modal fade" id="model0" tabindex="-1" role="dialog">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+											aria-hidden="true">&times;</span></button>
+									<h4 class="modal-title">Abstract</h4>
+								</div>
+								<div class="modal-body">
+									<div class="agileits-w3layouts-info">
+										<img src="images/publications/1.jpg" alt="" />
+										<p>
+											<hr>
+											Gonadotropin-releasing hormone (GnRH) has a role in hypothalamic control of
+											aging, but the underlying patterns and relationship with downstream
+											reproductive hormones are still unclear. Here we report that hypothalamic
+											GnRH pulse frequency and irregularity increase before GnRH pulse amplitude
+											slowly decreases during aging. GnRH is inhibited by nuclear factor (NF)-κB,
+											and GnRH pulses were controlled by oscillations in the transcriptional
+											activity of NF-κB. Exposure to testosterone under pro-inflammatory
+											conditions stimulated both NF-κB oscillations and GnRH pulses. While
+											castration of middle-aged mice induced short-term anti-aging effects,
+											preventing elevation of luteinizing hormone (LH) levels after castration led
+											to long-term anti-aging effects and lifespan extension, indicating that
+											high-frequency GnRH pulses and high-magnitude LH levels coordinately mediate
+											aging. Reprogramming the endogenous GnRH pulses of middle-aged male mice via
+											an optogenetic approach revealed that increasing GnRH pulses frequency
+											causes LH excess and aging acceleration, while lowering the frequency of and
+											stabilizing GnRH pulses can slow down aging. In conclusion, GnRH pulses are
+											important for aging in male mice.
+											<hr>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> -->
+
+					<!-- //modal -->
+				</div>
+				<!-- <div class="col-md-6 agileits_updates_grid_right">
+					<h4>Paper Illustrations</h4>
+					<ul id="flexiselDemo1">
+						<li>
+							<img src="images/publications/1.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/2.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/3.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/4-2.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/5.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/6.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/7.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/8.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/9.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/10.jpg" alt=" " class="img-responsive" />
+						</li>
+					</ul>
+					<script type="text/javascript">
+						$(window).load(function () {
+							$("#flexiselDemo1").flexisel({
+								visibleItems: 3,
+								animationSpeed: 1000,
+								autoPlay: true,
+								autoPlaySpeed: 3000,
+								pauseOnHover: true,
+								enableResponsiveBreakpoints: true,
+								responsiveBreakpoints: {
+									portrait: {
+										changePoint: 480,
+										visibleItems: 1
+									},
+									landscape: {
+										changePoint: 640,
+										visibleItems: 2
+									},
+									tablet: {
+										changePoint: 768,
+										visibleItems: 3
+									}
+								}
+							});
+
+						});
+					</script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h5 class="panel-title asd">
+									<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion"
+										href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i
+											class="glyphicon glyphicon-minus" aria-hidden="true"></i>assumenda est
+										cliche reprehenderit
+									</a>
+								</h5>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+								aria-labelledby="headingOne">
+								<div class="panel-body panel_text">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+									richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+									brunch. Food truck quinoa nesciunt laborum eiusmod.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingTwo">
+								<h5 class="panel-title asd">
+									<a class="pa_italic collapsed" role="button" data-toggle="collapse"
+										data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+										aria-controls="collapseTwo">
+										<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i
+											class="glyphicon glyphicon-minus" aria-hidden="true"></i>Itaque earum rerum
+									</a>
+								</h5>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+								aria-labelledby="headingTwo">
+								<div class="panel-body panel_text">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+									richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+									brunch. Food truck quinoa nesciunt laborum eiusmod.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingThree">
+								<h5 class="panel-title asd">
+									<a class="pa_italic collapsed" role="button" data-toggle="collapse"
+										data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+										aria-controls="collapseThree">
+										<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i
+											class="glyphicon glyphicon-minus" aria-hidden="true"></i>autem accusamus
+										terry quibusdam
+									</a>
+								</h5>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+								aria-labelledby="headingThree">
+								<div class="panel-body panel_text">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+									richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+									brunch. Food truck quinoa nesciunt laborum eiusmod.
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingFour">
+								<h5 class="panel-title asd">
+									<a class="pa_italic collapsed" role="button" data-toggle="collapse"
+										data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+										aria-controls="collapseFour">
+										<span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i
+											class="glyphicon glyphicon-minus" aria-hidden="true"></i>excepturi sint
+										cliche reprehenderit
+									</a>
+								</h5>
+							</div>
+							<div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+								aria-labelledby="headingFour">
+								<div class="panel-body panel_text">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+									richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+									brunch. Food truck quinoa nesciunt laborum eiusmod.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<!-- <div class="col-md-6 agileits_updates_grid_right">
+					<h4>Paper Illustrations</h4>
+					<ul id="flexiselDemo1">
+						<li>
+							<img src="images/publications/1.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/2.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/3.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/4-2.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/5.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/6.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/7.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/8.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/9.jpg" alt=" " class="img-responsive" />
+						</li>
+						<li>
+							<img src="images/publications/10.jpg" alt=" " class="img-responsive" />
+						</li>
+					</ul>
+					<script type="text/javascript">
+						$(window).load(function () {
+							$("#flexiselDemo1").flexisel({
+								visibleItems: 1,
+								animationSpeed: 1000,
+								autoPlay: true,
+								autoPlaySpeed: 3000,
+								pauseOnHover: true,
+								enableResponsiveBreakpoints: true,
+								responsiveBreakpoints: {
+									portrait: {
+										changePoint: 480,
+										visibleItems: 1
+									},
+									landscape: {
+										changePoint: 640,
+										visibleItems: 1
+									},
+									tablet: {
+										changePoint: 768,
+										visibleItems: 1
+									}
+								}
+							});
+						});
+					</script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+				</div> -->
+
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //updates -->
+	<!-- team -->
+	<div class="team" id="team">
+		<div class="container">
+			<h3>Memebers</h3>
+			<div class="agileinfo-team-grids" style="width: 100%;flex: none;">
+				<!-- PI -->
+				<div>
+					<p style="font-size: 2rem;color: #023760;font-weight: 700;text-align: center;">Principal
+						Investigator</p>
+					<hr>
+					<div class="col-md-12 wthree-team-grid" style="justify-content: center;text-align: center;">
+						<img src="images/people/wang.png" alt="" style="height: 260px;width: 260px;"
+							class="img-circle" />
+						<h4>Zhouguang Wang</h4>
+						<p>Professor</p>
+					</div>
+					<hr>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/朱思品/朱思品，温州医科大学，王周光教授团队.png" alt=""
+							style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Sipin Zhu</h4>
+							<p>Professor </p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/左彦明 国际生长因子研究院PI.png" alt="" style="height: 260px;width: 260px;"
+							class="img-circle" />
+						<div style="text-align: center;">
+							<h4 style="margin-left: 30px;">Yanming Zuo</h4>
+							<p>Professor </p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/吴平，主要研究方向包括神经再生、骨再生、皮肤再生与生物传感等.png" alt=""
+							style="height: 260px;width: 260px;" class="img-circle" />
+						<div style="text-align: center;">
+							<h4>Ping Wu</h4>
+							<p>Professor </p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/杨丽珠，华东师范大学分析化学专业博士，副教授，硕士生导师，爱尔兰都柏林大学访问学者，2006年入选温州市“新世纪551人才工程”第三层次培养对象.png"
+							alt="" class="img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Lizhu Yang</h4>
+							<p>Professor </p>
+						</div>
+					</div>
+					<hr>
+					<div class="clearfix"> </div>
+				</div>
+				<!--  Doctoral researchers-->
+				<hr>
+				<div>
+					<p style="font-size: 2rem;color: #023760;font-weight: 700;text-align: center;">Postgraduate
+						Researchers
+					</p>
+					<hr>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/毕嫣然 博士后.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Yanran Bi</h4>
+							<p>Postdoctoral</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/楚刘喜 博士后.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Liuxi Chu</h4>
+							<p>Postdoctoral</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/黄鋆清 博士后.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Junqing Huang</h4>
+							<p>Postdoctoral</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/徐倩 博士后 徐倩爱尔兰都柏林大学转化医学博士研究领域：主要研究功能化生物材料、可注射水凝胶的设计和合成，及其作为干细胞、生长因子药物递送载体在伤口修复、组织再生等领域的应用。.jpg"
+							alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Qian Xu</h4>
+							<p>Postdoctoral</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/应新旺 博士后 研究方向：脊柱与骨关节康复；运动康复；神经可塑性和血管修复。.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Xinwang Ying</h4>
+							<p>Postdoctoral</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/黄智洋 博士.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Zhiyang Huang</h4>
+							<p>PhD Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/沈家门博士.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Jiamen Shen</h4>
+							<p>PhD Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/薛畅 博士.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Chang Xue</h4>
+							<p>PhD Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/应一博 博士.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Yibo Ying</h4>
+							<p>PhD Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/冯芝怡 硕士.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Zhiyi Feng</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/黄钰 硕士.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Yu Huang</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/蒋佚 硕士.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Yi Jiang</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/吕家立 硕士.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Jiali Lv</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/孟晓蕾 硕士.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Xiaolei Meng</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/吴瑞雪 硕士.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Ruixue Wu</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/叶璐阳 硕士.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Luyang Ye</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/张宇超 硕士.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Yuchao Zhang</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/宁波院区学生/曹勤/曹勤.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Qin Cao</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/宁波院区学生/曹志强/曹志强.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Zhiqiang Cao</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/宁波院区学生/李紫怡/李紫怡.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Ziyi Li</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/宁波院区学生/宁少霞/宁少霞.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Shaoxia Ning</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/朱思品/姜明灏.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Minghao Jiang</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/朱思品/庄浚煜.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Junyu Zhuang</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/朱思品/方耀平.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Yaoping Fang</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/朱思品/朱中伟.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Zhongwei Zhu</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/朱思品/蔡雄.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Xiong Cai</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/朱思品/赵娟.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Juan Zhao</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/朱思品/陆文杰.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Wenjie Lu</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/朱思品/陈敏.png" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Min Chen</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+					<div class="col-md-3 wthree-team-grid">
+						<img src="images/people/陈浩满.jpg" alt="" "
+							class=" img-circle" style="height: 260px;width: 260px;" />
+						<div style="text-align: center;">
+							<h4>Haoman Chen</h4>
+							<p>Master Candidate</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- ours team  -->
+	<div id="gallery" class="gallery">
+		<div class="container">
+			<h3>Gallery</h3>
+			<div class="w3ls-gallery-grids">
+				<div class="gallery-grid">
+					<div class="wpf-demo-4">
+						<img src="images/team.jpg" alt="Description of Image" class="img-responsive" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//ours team  -->
+	<!-- subscribe -->
+	<div class="jarallax  wthree-subscribe">
+		<div class="w3-agileits-testimonial subscribe-bg">
+			<div class="container">
+				<h3>Contact Us</h3>
+				<!-- <div class="w3-agileits-subscribe-form">
+					<form action="#" method="post">
+						<input type="text" placeholder="Email" name="Email" required="">
+						<button class="btn1">Subscribe</button>
+					</form>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<!-- //subscribe -->
+	<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<!-- <h3>Contact Us</h3> -->
+			<div class="contact-grids">
+				<div class="col-md-6 w3ls-address">
+					<h4>Get in touch with us</h4>
+					<p class="cnt-p">
+					</p>
+					<p class="address">Room A1006, South 10th Floor, Biomedical Research Building, Wenzhou Medical
+						University, Chashan Higher Education Park, Ouhai District<br> Wenzhou City<br>Zhejiang
+						Province,<br> China </p>
+					<p>Telephone : 13566232793</p>
+					<p>Email : <a href="wzhouguang@gmail.com">wzhouguang@gmail.com</a></p>
+				</div>
+				<!-- <div class="col-md-6 w3l-contact-form">
+					<form action="https://sendmail.w3layouts.com/submitForm" method="post">
+						<input type="text" name="w3lName" placeholder="Name" required="">
+						<input type="email" name="w3lSender" placeholder="Email" required="">
+						<textarea placeholder="Message" name="w3lMessage" required=""></textarea>
+						<input type="submit" value="SUBMIT">
+					</form>
+				</div> -->
+				<div class="clearfix"> </div>
+			</div>
+			<!-- map -->
+			<!-- <div class="w3-agile-map" style="visibility: hidden;">
+				<h3>Route Map</h3>
+				<iframe src="#"></iframe>
+			</div> -->
+			<!-- //map -->
+		</div>
+	</div>
+	<!-- //contact -->
+	<!-- footer -->
+	<div class="agileits-w3layouts-footer">
+		<div class="container">
+			<div class="agile-copyright">
+				<p>© 2023 Wang Lab</p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<script src="js/jarallax.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>
+
+</html>
